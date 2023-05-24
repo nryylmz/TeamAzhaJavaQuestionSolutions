@@ -16,7 +16,7 @@ public class DivisionWithoutOperator {
 
         while (a >= b){ // while a is greater or equal than the b
             a = a-b; // then a - b
-            count = count+1; // decrements by 1
+            count = count+1; // increments by 1
         }
         System.out.println("Divide is: " + count);
 
