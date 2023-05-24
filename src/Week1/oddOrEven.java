@@ -14,7 +14,7 @@ public class oddOrEven {
             System.out.println("invalid number"); // the given number is invalid.
         }
         System.out.println("================================================================");
-        // OR
+        // OR //
         int num2 = 26;
 
         boolean isOdd = num2 % 3  == 0;
