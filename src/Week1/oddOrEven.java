@@ -12,7 +12,7 @@ public class oddOrEven {
         //allows you to read user input from the console.
         //int number: declare a number (integer) as variable
         //nextInt() : It returns the obtained integer value.
-        //test test test test
+        //test2
         if (number % 2 == 0) {
             System.out.println(number + " is a even number.");
         } else {

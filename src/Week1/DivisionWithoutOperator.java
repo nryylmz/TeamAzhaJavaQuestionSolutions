@@ -23,7 +23,7 @@ public class DivisionWithoutOperator {
         while (dividend >= divisor) {
             dividend -= divisor;
             quotient++;
-        }//test
+        }
 
         if (isNegative) {
             quotient = -quotient;
