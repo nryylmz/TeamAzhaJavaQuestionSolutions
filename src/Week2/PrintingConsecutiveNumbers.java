@@ -28,9 +28,9 @@ public class PrintingConsecutiveNumbers {
             }
         }
 
-        public static void main(String[] args) {//executed the method using the example given in the task.
+        public static void main(String[] args) {
         int N = 17;
-        printingConsecutiveNumbers(N);
+        printingConsecutiveNumbers(N); //executed the method using the example given in the task.
     }
 }
 
