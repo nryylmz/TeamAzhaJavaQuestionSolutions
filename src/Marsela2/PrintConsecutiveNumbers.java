@@ -1,4 +1,4 @@
-package Week2;
+package Marsela2;
 
 public class PrintConsecutiveNumbers {
     public static void consecutiveNums(int N) {
