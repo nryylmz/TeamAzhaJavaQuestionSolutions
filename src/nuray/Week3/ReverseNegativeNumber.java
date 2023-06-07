@@ -35,7 +35,7 @@ public class ReverseNegativeNumber {
         System.out.println(number + " is reversed to " + reversedNumber);
         //printing the original 'number' is reversed to the 'reversedNumber'
 
-    }               /**/
+    }                /**/
 }
 
 
