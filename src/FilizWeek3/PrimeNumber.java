@@ -56,10 +56,4 @@ Here is your **Java Coding Tasks for the 3. week**.
   PrimeNumber is a whole number greater than 1 that cannot be exactly divided by any whole number other than itself and 1 (e.g. 2, 3, 5, 7, 11,..).
   Write a method that can check if a number is prime or not.
 
-2. Reverse negative number
-  Write a return method that can reverse negative number and return it as int.
-  For example, N = -215:
-  OutPut: -512
-```
-
  */
