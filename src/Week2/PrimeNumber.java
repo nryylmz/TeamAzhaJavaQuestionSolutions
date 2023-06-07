@@ -12,7 +12,7 @@ int max = 100;
             for (int j = 2; j < i ; j++) {   // we start at 2, excluding 0, 1
                 if(i % j ==0){
                     isPrime = false;
-                    break;
+                    break; //
                 }
             }
 
