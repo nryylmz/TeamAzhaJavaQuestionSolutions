@@ -1,7 +1,11 @@
 package Week2;
 
 public class PrintingConsecutiveNumbers {
-    public static void printNumbers(int N) {
+    public static void main(String[] args) {
+        int N = 17;
+        printConsecutiveNumbers(N);
+    }
+    public static void printConsecutiveNumbers(int N) {
         for (int i = 1; i <= N; i++) {
             if (i % 2 == 0 && i % 3 == 0 && i % 5 == 0) {
                 System.out.println("CodilityTestCoders");
@@ -22,12 +26,5 @@ public class PrintingConsecutiveNumbers {
             }
         }
     }
-
-    public static void main(String[] args) {
-        int N = 17;
-        printNumbers(N);
-    }
-
-
 
 }
