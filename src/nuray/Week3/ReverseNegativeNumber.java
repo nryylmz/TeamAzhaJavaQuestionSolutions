@@ -43,6 +43,8 @@ public class ReverseNegativeNumber {
 
 
 
+
+
 /*Reverse negative number
   Write a return method that can reverse negative number and return it as int.
   For example, N = -215:

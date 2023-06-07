@@ -19,8 +19,7 @@ public class PrimeNumber {
 
 
     public static void main(String[] args) {
-        System.out.println(isPrime(523));           //calling the main method to pass the argument '523'
+        System.out.println(isPrime(523));           //c alling the main method to pass the argument '523'
     }
 }
-
 
