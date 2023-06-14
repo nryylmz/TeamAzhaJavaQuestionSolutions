@@ -13,13 +13,14 @@ public class SameLetters {
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
 
-        Arrays.sort(arr1);
+        Arrays.sort(arr1);  //sort method sorts them in ascending order
         Arrays.sort(arr2);
 
         // Compare the sorted strings
         return Arrays.equals(arr1, arr2);  //Arrays.equals method is used to compare the sorted character arrays. If they are equal, the two strings have the same letters.
 
-    }
+    } // added new code
+
 
     public static void main(String[] args) {
         String str1 = "Earth";

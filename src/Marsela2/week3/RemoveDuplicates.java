@@ -13,7 +13,7 @@ public class RemoveDuplicates {
         for (int i = 0; i < removeDup.length(); i++) {
 
 
-            if(result.contains("" + removeDup.charAt(i) )){
+            if(result.contains("" + removeDup.charAt(i) )){  //
                 continue; //if character is already contained in new string, skip it
             }
             result += removeDup.charAt(i);
