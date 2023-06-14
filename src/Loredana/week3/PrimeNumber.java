@@ -1,32 +1,30 @@
 package Loredana.week3;
 
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
-
 public class PrimeNumber
-{
-    public static boolean isPrime(int n)
     {
-        if(n<=1)
-            return false;
-
-        for (int i = 2; i < n; i++)
+        public static boolean isPrime(int n)
         {
-             if (n%i == 0)
-             {
-                 return false;
-             }
-        }
+            if(n<=1)
+                return false;
+
+            for (int i = 2; i < n; i++)
+            {
+                if (n%i == 0)
+                {
+                    return false;
+                }
+            }
             return true;
         }
 
-    public static void main(String[] args)
-    {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a number: ");
-        int n = input.nextInt();
-        System.out.println(n + " is a prime number: " + isPrime(n));
-    }
+        public static void main(String[] args)
+        {
+            Scanner input = new Scanner(System.in);
+            System.out.println("Please enter a number: ");
+            int n = input.nextInt();
+            System.out.println(n + " is a prime number: " + isPrime(n));
+        }
 
 
     /*
@@ -35,4 +33,5 @@ public class PrimeNumber
   Write a method that can check if a number is prime or not.
 
      */
-}
+    }
+
