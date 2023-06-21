@@ -1,7 +1,4 @@
-package Olga_week4;
-
-import Mohamed.Week4.frequencyOfChars;
-import Zeljko.week4.frequency;
+package Olga.week4;
 
 import java.util.ArrayList;
 import java.util.Arrays;

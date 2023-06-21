@@ -1,6 +1,5 @@
-package Olga_week4;
+package Olga.week4;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class SameLetters {
