@@ -1,4 +1,4 @@
-package Olga_week4;
+package Olga.week4;
 
 import java.util.HashSet;
 import java.util.Set;
