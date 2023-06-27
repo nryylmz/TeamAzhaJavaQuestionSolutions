@@ -5,20 +5,19 @@ public class unique {
         System.out.println(uniqueChar("AAABBBCCCDEF"));
     }
     public static String uniqueChar(String str){
-        String unique ="";
 
+
+        String unique ="";
         for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
 
             int frequency =0;
-
             for (int j = 0; j < str.length(); j++) {
-                if(str.charAt(j)==ch){
+                if(str.charAt(j)==str.charAt(i)){
                     frequency++;
                 }
             }
             if(frequency==1){
-                unique+=ch;
+                unique+=str.charAt(i);
             }
 
         }
