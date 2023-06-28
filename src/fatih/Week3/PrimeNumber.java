@@ -1,5 +1,8 @@
 package fatih.Week3;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class PrimeNumber {
 
     public static boolean isPrimeNumber(int num) {
