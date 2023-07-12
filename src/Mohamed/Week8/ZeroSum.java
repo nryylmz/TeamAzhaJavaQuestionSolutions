@@ -23,5 +23,5 @@ public class ZeroSum {
         System.out.println("Array: " + Arrays.toString(myArray));
         scanner.close();
 
-    }..... //To be continued to calculate the sum
+    }//To be continued to calculate the sum
 }
