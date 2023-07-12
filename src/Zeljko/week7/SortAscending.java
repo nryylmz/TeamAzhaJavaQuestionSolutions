@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class SortAscending {
     public static int[] ascending(int[] arr){
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
+        for (int i = 0; i < arr.length ; i++) {
+            for (int j = 0; j < arr.length -1 ; j++) {
                 int num = 0;
-                if(arr[i]<arr[j]){
+                if(arr[i] < arr[j]){
                     num = arr[i];
                     arr[i]=arr[j];
                     arr[j] = num;
