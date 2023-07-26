@@ -1,41 +1,30 @@
 package Loredana.week9;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Scanner;
 
 public class RemoveAhmed
 {
-    public static String [] removeName(String [] arr, String name)
-    {
-        ArrayList<String> nameList = new ArrayList<>();
+    public static ArrayList<String> removeName(ArrayList<String> arr, String name) {
+        arr.removeIf(p -> p.equals(name)); //remove all name occurrences from the list
 
-        Collections.addAll(nameList, arr); //storing the array elements in an array list
-
-        nameList.removeIf(p -> p.equals(name)); //remove all name occurrences from the list
-
-        int n = nameList.size(); //length of the new array
-
-        int i = 0;
-
-        String [] nameListArray = new String[n]; //new array
-
-        for (String each : nameList)
-        {
-            nameListArray[i++] = each;
-        }
-
-        return nameListArray;
+        return arr;
     }
-
 
     public static void main(String[] args)
     {
-        String []arr = {"Ahmed", "John", "Eric", "Ahmed", "Thomas", "Daniel", "Ahmed"};
-        String nameToBeRemoved = "Ahmed";
-        System.out.println(Arrays.toString(removeName(arr, nameToBeRemoved)));
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Ahmed");
+        arrayList.add("John");
+        arrayList.add("Eric");
+        arrayList.add("Ahmed");
+        arrayList.add("Thomas");
+        arrayList.add("Daniel");
+        arrayList.add("Ahmed");
+        arrayList.add("Daniela");
 
+        String nameToBeRemoved = "Ahmed";
+        System.out.println(removeName(arrayList, nameToBeRemoved));
 
     }
 

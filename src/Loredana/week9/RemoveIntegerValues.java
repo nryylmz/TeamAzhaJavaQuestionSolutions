@@ -3,10 +3,11 @@ package Loredana.week9;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class RemoveIntegerValues
 {
-    public static int [] removeValues(int [] arr, int n)
+    public static ArrayList<Integer> removeValues(List<Integer> arr, int n)
     {
         ArrayList<Integer> arrayList = new ArrayList<>();
 
@@ -16,28 +17,19 @@ public class RemoveIntegerValues
                 arrayList.add(each);
         }
 
-        int [] removeArray = new int[arrayList.size()];
-
-        int i = 0;
-        for (Integer each : arrayList)
-        {
-            removeArray[i++] = each;
-        }
-
-
-        return removeArray;
+        return arrayList;
 
     }
 
     public static void main(String[] args)
     {
-       int[] arr = {1, 3, 67, 101, 23, 200, 234, 101, 145, 5, 0, 23 };
+        List<Integer> arrayListInteger = Arrays.asList( 1, 3, 67, 101, 23, 200, 234, 101, 145, 5, 0, 23);
 
        int n = 100;
 
-        System.out.println(Arrays.toString(arr));
+        System.out.println(arrayListInteger);
 
-        System.out.println(Arrays.toString(removeValues(arr, n)));
+        System.out.println(removeValues(arrayListInteger, n));
 
 
 
